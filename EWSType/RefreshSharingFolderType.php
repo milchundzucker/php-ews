@@ -17,7 +17,7 @@ class EWSType_RefreshSharingFolderType extends EWSType
      *
      * @since Exchange 2010
      *
-     * @var EWSType_FolderIdType
+     * @var \jamesiarmes\PEWS\Type\FolderIdType
      */
     public $SharingFolderId;
 }

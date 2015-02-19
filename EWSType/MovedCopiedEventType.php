@@ -17,7 +17,7 @@ class EWSType_MovedCopiedEventType extends EWSType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_FolderIdType
+     * @var \jamesiarmes\PEWS\Type\FolderIdType
      */
     public $FolderId;
 
@@ -26,7 +26,7 @@ class EWSType_MovedCopiedEventType extends EWSType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_ItemIdType
+     * @var \jamesiarmes\PEWS\Type\ItemIdType
      */
     public $ItemId;
 
@@ -36,7 +36,7 @@ class EWSType_MovedCopiedEventType extends EWSType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_FolderIdType
+     * @var \jamesiarmes\PEWS\Type\FolderIdType
      */
     public $OldFolderId;
 
@@ -45,7 +45,7 @@ class EWSType_MovedCopiedEventType extends EWSType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_ItemIdType
+     * @var \jamesiarmes\PEWS\Type\ItemIdType
      */
     public $OldItemId;
 
@@ -55,7 +55,7 @@ class EWSType_MovedCopiedEventType extends EWSType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_FolderIdType
+     * @var \jamesiarmes\PEWS\Type\FolderIdType
      */
     public $OldParentFolderId;
 
@@ -64,7 +64,7 @@ class EWSType_MovedCopiedEventType extends EWSType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_FolderIdType
+     * @var \jamesiarmes\PEWS\Type\FolderIdType
      */
     public $ParentFolderId;
 

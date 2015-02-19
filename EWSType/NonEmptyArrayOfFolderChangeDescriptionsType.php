@@ -19,7 +19,7 @@ class EWSType_NonEmptyArrayOfFolderChangeDescriptionsType extends EWSType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_AppendToFolderFieldType
+     * @var \jamesiarmes\PEWS\Type\AppendToFolderFieldType
      */
     public $AppendToFolderField;
 
@@ -29,7 +29,7 @@ class EWSType_NonEmptyArrayOfFolderChangeDescriptionsType extends EWSType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_DeleteFolderFieldType
+     * @var \jamesiarmes\PEWS\Type\DeleteFolderFieldType
      */
     public $DeleteFolderField;
 

@@ -15,7 +15,7 @@ class EWSType_SyncFolderHierarchyDeleteType extends EWSType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_FolderIdType
+     * @var \jamesiarmes\PEWS\Type\FolderIdType
      */
     public $FolderId;
 }

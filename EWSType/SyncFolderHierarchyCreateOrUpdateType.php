@@ -15,7 +15,7 @@ class EWSType_SyncFolderHierarchyCreateOrUpdateType extends EWSType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_CalendarFolderType
+     * @var \jamesiarmes\PEWS\Type\CalendarFolderType
      */
     public $CalendarFolder;
 
@@ -24,7 +24,7 @@ class EWSType_SyncFolderHierarchyCreateOrUpdateType extends EWSType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_ContactsFolderType
+     * @var \jamesiarmes\PEWS\Type\ContactsFolderType
      */
     public $ContactsFolder;
 
@@ -33,7 +33,7 @@ class EWSType_SyncFolderHierarchyCreateOrUpdateType extends EWSType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_FolderType
+     * @var \jamesiarmes\PEWS\Type\FolderType
      */
     public $Folder;
 
@@ -42,7 +42,7 @@ class EWSType_SyncFolderHierarchyCreateOrUpdateType extends EWSType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_SearchFolderType
+     * @var \jamesiarmes\PEWS\Type\SearchFolderType
      */
     public $SearchFolder;
 
@@ -51,7 +51,7 @@ class EWSType_SyncFolderHierarchyCreateOrUpdateType extends EWSType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_TasksFolderType
+     * @var \jamesiarmes\PEWS\Type\TasksFolderType
      */
     public $TasksFolder;
 }

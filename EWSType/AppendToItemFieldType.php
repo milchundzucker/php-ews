@@ -1,17 +1,17 @@
 <?php
 /**
- * Contains EWSType_AppendToItemFieldType.
+ * Contains \jamesiarmes\PEWS\Type\AppendToItemFieldType.
  */
+
+namespace jamesiarmes\PEWS\Type;
 
 /**
  * Identifies data to append to a single property of an item during an
  * UpdateItem operation.
  *
  * @package php-ews\Types
- *
- * @todo Extend EWSType_ItemChangeDescriptionType.
  */
-class EWSType_AppendToItemFieldType extends EWSType
+class AppendToItemFieldType extends ItemChangeDescriptionType
 {
     /**
      * Represents an Exchange calendar item.
@@ -41,38 +41,11 @@ class EWSType_AppendToItemFieldType extends EWSType
     public $DistributionList;
 
     /**
-     * Identifies extended MAPI properties to append.
-     *
-     * @since Exchange 2007
-     *
-     * @var EWSType_PathToExtendedFieldType
-     */
-    public $ExtendedFieldURI;
-
-    /**
-     * Identifies frequently referenced properties by URI.
-     *
-     * @since Exchange 2007
-     *
-     * @var EWSType_PathToUnindexedFieldType
-     */
-    public $FieldURI;
-
-    /**
-     * Identifies individual members of a dictionary.
-     *
-     * @since Exchange 2007
-     *
-     * @var EWSType_PathToIndexedFieldType
-     */
-    public $IndexedFieldURI;
-
-    /**
      * Represents an item in the Exchange store.
      *
      * @since Exchange 2007
      *
-     * @var EWSType_ItemType
+     * @var \jamesiarmes\PEWS\Type\ItemType
      */
     public $Item;
 
@@ -117,7 +90,7 @@ class EWSType_AppendToItemFieldType extends EWSType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_MessageType
+     * @var \jamesiarmes\PEWS\Type\MessageType
      */
     public $Message;
 

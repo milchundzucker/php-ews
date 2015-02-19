@@ -17,7 +17,7 @@ class EWSType_BaseObjectChangedEventType extends EWSType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_FolderIdType
+     * @var \jamesiarmes\PEWS\Type\FolderIdType
      */
     public $FolderId;
 
@@ -26,7 +26,7 @@ class EWSType_BaseObjectChangedEventType extends EWSType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_ItemIdType
+     * @var \jamesiarmes\PEWS\Type\ItemIdType
      */
     public $ItemId;
 
@@ -35,7 +35,7 @@ class EWSType_BaseObjectChangedEventType extends EWSType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_FolderIdType
+     * @var \jamesiarmes\PEWS\Type\FolderIdType
      */
     public $ParentFolderId;
 

@@ -3,12 +3,14 @@
  * Contains EWSType_CalendarItemType.
  */
 
+use \jamesiarmes\PEWS\Type\ItemType;
+
 /**
  * Represents an Exchange calendar item.
  *
  * @package php-ews\Types
  */
-class EWSType_CalendarItemType extends EWSType_ItemType
+class EWSType_CalendarItemType extends ItemType
 {
     /**
      * Represents the total number of calendar items that are adjacent to a
@@ -75,7 +77,7 @@ class EWSType_CalendarItemType extends EWSType_ItemType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_ArrayOfAttachmentsType
+     * @var \jamesiarmes\PEWS\Type\ArrayOfAttachmentsType
      */
     public $Attachments;
 
@@ -84,7 +86,7 @@ class EWSType_CalendarItemType extends EWSType_ItemType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_BodyType
+     * @var \jamesiarmes\PEWS\Type\BodyType
      */
     public $Body;
 
@@ -140,7 +142,7 @@ class EWSType_CalendarItemType extends EWSType_ItemType
      *
      * @since Exchange 2010
      *
-     * @var EWSType_ItemIdType
+     * @var \jamesiarmes\PEWS\Type\ItemIdType
      */
     public $ConversationId;
 
@@ -253,7 +255,7 @@ class EWSType_CalendarItemType extends EWSType_ItemType
      *
      * @since Exchange 2007 SP1
      *
-     * @var EWSType_EffectiveRightsType
+     * @var \jamesiarmes\PEWS\Type\EffectiveRightsType
      */
     public $EffectiveRights;
 
@@ -284,7 +286,7 @@ class EWSType_CalendarItemType extends EWSType_ItemType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_ExtendedPropertyType
+     * @var \jamesiarmes\PEWS\Type\ExtendedPropertyType
      */
     public $ExtendedProperty;
 
@@ -466,7 +468,7 @@ class EWSType_CalendarItemType extends EWSType_ItemType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_ItemIdType
+     * @var \jamesiarmes\PEWS\Type\ItemIdType
      */
     public $ItemId;
 
@@ -622,7 +624,7 @@ class EWSType_CalendarItemType extends EWSType_ItemType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_FolderIdType
+     * @var \jamesiarmes\PEWS\Type\FolderIdType
      */
     public $ParentFolderId;
 
@@ -788,7 +790,7 @@ class EWSType_CalendarItemType extends EWSType_ItemType
      *
      * @since Exchange 2010
      *
-     * @var EWSType_BodyType
+     * @var \jamesiarmes\PEWS\Type\BodyType
      */
     public $UniqueBody;
 

@@ -18,7 +18,7 @@ class EWSType_GroupByType extends EWSType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_AggregateOnType
+     * @var \jamesiarmes\PEWS\Type\AggregateOnType
      */
     public $AggregateOn;
 
@@ -27,7 +27,7 @@ class EWSType_GroupByType extends EWSType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_PathToExtendedFieldType
+     * @var \jamesiarmes\PEWS\Type\PathToExtendedFieldType
      */
     public $ExtendedFieldURI;
 
@@ -36,7 +36,7 @@ class EWSType_GroupByType extends EWSType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_PathToUnindexedFieldType
+     * @var \jamesiarmes\PEWS\Type\PathToUnindexedFieldType
      */
     public $FieldURI;
 
@@ -45,7 +45,7 @@ class EWSType_GroupByType extends EWSType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_PathToIndexedFieldType
+     * @var \jamesiarmes\PEWS\Type\PathToIndexedFieldType
      */
     public $IndexedFieldURI;
 

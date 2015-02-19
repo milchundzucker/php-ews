@@ -118,7 +118,7 @@ class EWSType_FindItemType extends EWSType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_RestrictionType
+     * @var \jamesiarmes\PEWS\Type\RestrictionType
      */
     public $Restriction;
 

@@ -27,7 +27,7 @@ class EWSType_NonEmptyArrayOfItemChangeDescriptionsType extends EWSType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_DeleteItemFieldType
+     * @var \jamesiarmes\PEWS\Type\DeleteItemFieldType
      */
     public $DeleteItemField;
 

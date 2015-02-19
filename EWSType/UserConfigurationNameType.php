@@ -27,7 +27,7 @@ class EWSType_UserConfigurationNameType extends EWSType
      *
      * @since Exchange 2010
      *
-     * @var EWSType_FolderIdType
+     * @var \jamesiarmes\PEWS\Type\FolderIdType
      */
     public $FolderId;
 

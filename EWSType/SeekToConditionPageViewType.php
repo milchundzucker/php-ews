@@ -41,7 +41,7 @@ class EWSType_SeekToConditionPageViewType extends EWSType
      *
      * @since Exchange 2013
      *
-     * @var EWSType_RestrictionType
+     * @var \jamesiarmes\PEWS\Type\RestrictionType
      */
     public $Condition;
 }

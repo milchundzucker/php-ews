@@ -51,7 +51,7 @@ class EWSType_UploadItemType extends EWSType
      *
      * @since Exchange 2010 SP1
      *
-     * @var EWSType_ItemIdType
+     * @var \jamesiarmes\PEWS\Type\ItemIdType
      */
     public $ItemId;
 
@@ -61,7 +61,7 @@ class EWSType_UploadItemType extends EWSType
      *
      * @since Exchange 2010 SP1
      *
-     * @var EWSType_FolderIdType
+     * @var \jamesiarmes\PEWS\Type\FolderIdType
      */
     public $ParentFolderId;
 }

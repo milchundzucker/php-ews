@@ -1,24 +1,24 @@
 <?php
 /**
- * Contains EWSType_SetFolderFieldType.
+ * Contains \jamesiarmes\PEWS\Type\SetFolderFieldType.
  */
+
+namespace jamesiarmes\PEWS\Type;
 
 /**
  * Represents an update that sets the value for a single property on a folder in
  * an UpdateFolder operation.
  *
  * @package php-ews\Types
- *
- * @todo Extend EWSType_FolderChangeDescriptionType.
  */
-class EWSType_SetFolderFieldType extends EWSType
+class SetFolderFieldType extends FolderChangeDescriptionType
 {
     /**
      * Represents a folder that primarily contains calendar items.
      *
      * @since Exchange 2007
      *
-     * @var EWSType_CalendarFolderType
+     * @var \jamesiarmes\PEWS\Type\CalendarFolderType
      */
     public $CalendarFolder;
 
@@ -27,52 +27,25 @@ class EWSType_SetFolderFieldType extends EWSType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_ContactsFolderType
+     * @var \jamesiarmes\PEWS\Type\ContactsFolderType
      */
     public $ContactsFolder;
-
-    /**
-     * Identifies extended MAPI properties.
-     *
-     * @since Exchange 2007
-     *
-     * @var EWSType_PathToExtendedFieldType
-     */
-    public $ExtendedFieldURI;
-
-    /**
-     * Identifies frequently referenced properties by URI.
-     *
-     * @since Exchange 2007
-     *
-     * @var EWSType_PathToUnindexedFieldType
-     */
-    public $FieldURI;
 
     /**
      * Identifies a folder to update.
      *
      * @since Exchange 2007
      *
-     * @var EWSType_FolderType
+     * @var \jamesiarmes\PEWS\Type\FolderType
      */
     public $Folder;
-
-    /**
-     * Identifies individual members of a dictionary.
-     *
-     * @since Exchange 2007
-     *
-     * @var EWSType_PathToIndexedFieldType
-     */
-    public $IndexedFieldURI;
 
     /**
      * Represents a search folder that is contained in a mailbox.
      *
      * @since Exchange 2007
      *
-     * @var EWSType_SearchFolderType
+     * @var \jamesiarmes\PEWS\Type\SearchFolderType
      */
     public $SearchFolder;
 
@@ -81,7 +54,7 @@ class EWSType_SetFolderFieldType extends EWSType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_TasksFolderType
+     * @var \jamesiarmes\PEWS\Type\TasksFolderType
      */
     public $TasksFolder;
 }
