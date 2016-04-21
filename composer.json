@@ -1,5 +1,16 @@
 {
     "name": "muz/php-ews",
     "description": "PHP Exchange Web Services",
-    "require": {}
+    "require": {},
+    "autoload":{
+		"classmap":[
+			"ExchangeWebServices.php",
+			"NTLMSoapClient.php",
+			"EWSType.php",
+			"EWS_Exception.php",
+			"EWSAutodiscover.php",
+			"EWSType/",
+			"NTLMSoapClient/",
+		]
+	}
 }
