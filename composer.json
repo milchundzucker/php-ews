@@ -10,7 +10,7 @@
 			"EWS_Exception.php",
 			"EWSAutodiscover.php",
 			"EWSType/",
-			"NTLMSoapClient/",
+			"NTLMSoapClient/"
 		]
 	}
 }
